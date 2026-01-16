@@ -8,7 +8,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Competition | IYNA Japan",
   description:
-    "Neuroinnovation Research Ideathon (NRI) は、中高生が神経科学の知識を活かして創造的なアイデアを競うコンテストです。",
+    "NRI(Neuroinnovation Research Ideathon)は、中高生が神経科学を活用した斬新なアイデアを発表するコンテストです。評価点は知識ではなく、創造性・実用性・現実性。神経科学の知識を土台としながら、自由な発想を武器に、製品・サービス・教育・医療・テクノロジー・エンターテインメントなど多様な分野での日常生活の課題解決や新しいライフスタイルの提案へと応用するアイデアを募集します！",
 };
 
 export default function CompetitionPage() {
@@ -21,8 +21,10 @@ export default function CompetitionPage() {
         <section className="space-y-4">
           <h1 className="text-3xl font-bold">Neuroinnovation Research Ideathon</h1>
           <p className="text-lg">
-            NRI (Neuroinnovation Research Ideathon) は、神経科学を活用し、中高生の創造的なアイデアを発表するコンテストです。
-            評価は知識量ではなく、創造性・実用性・現実性が鍵となります。
+            NRI(Neuroinnovation Research Ideathon)は、中高生が神経科学を活用した斬新なアイデアを発表するコンテストです。
+            評価点は知識ではなく、創造性・実用性・現実性。神経科学の知識を土台としながら、自由な発想を武器に、製品・サービス・教育・医療・テクノロジー・エンターテインメントなど多様な分野での日常生活の課題解決や新しいライフスタイルの提案へと応用するアイデアを募集します！
+            NRIは、「知識を超えた発想力」を引き出し、 若い世代の創造力を育むことを目指しています。
+            また、「考える・創る・伝える」というプロセスを通じて、論理的思考力、プレゼンテーション能力、そしてチームワークを養う場でもあります。参加者同士が刺激し合い、競い合うことで、より高いレベルのアイデアが生まれることを期待しています。
           </p>
         </section>
 
@@ -32,7 +34,8 @@ export default function CompetitionPage() {
             <CardTitle className="text-2xl">2025年度 テーマ</CardTitle>
           </CardHeader>
           <CardContent>
-            <p>神経科学を活用して生活をより豊かで快適に</p>
+            <p>神経科学を活用して生活をより豊かで快適に
+            </p>
           </CardContent>
         </Card>
 
@@ -42,7 +45,29 @@ export default function CompetitionPage() {
             <CardTitle className="text-2xl">応募</CardTitle>
           </CardHeader>
           <CardContent>
-            <p>Coming Soon...</p>
+            <p> 募集期間<p>
+              2025年12月12日（金）〜 2026年2月15日（日）
+            </p> 
+              <p>  応募条件
+                <p>
+                  個人または2~5名のチームであること
+                </p><p>
+                  チーム全員が中学1年生〜高校3年生のいずれかであること（2025年度時点）
+                </p>
+                <p>
+                  専門知識は不要。自由な発想で応募が可能です
+                </p>
+              </p> <p>
+                登録フォーム
+              </p>
+              <p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7MHQUahkEiubzmj4YDWMn7mLpUZkloyp1_6njWCTEmkkz5A/viewform?usp=sharing&ouid=100392292553565331858">登録フォームはこちら</a>
+              </p>
+
+
+
+
+            </p>
           </CardContent>
         </Card>
 
